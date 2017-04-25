@@ -1,6 +1,6 @@
 # npmtest-onetime
 
-#### test coverage for  [onetime (v2.0.1)](https://github.com/sindresorhus/onetime#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-onetime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-onetime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-onetime.svg)](https://travis-ci.org/npmtest/node-npmtest-onetime)
+#### basic test coverage for  [onetime (v2.0.1)](https://github.com/sindresorhus/onetime#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-onetime.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-onetime) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-onetime.svg)](https://travis-ci.org/npmtest/node-npmtest-onetime)
 
 #### Ensure a function is only called once
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-onetime/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-onetime/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-onetime/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-onetime/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-onetime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-onetime/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-onetime/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-onetime/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-onetime/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-onetime/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-onetime/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-onetime/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
